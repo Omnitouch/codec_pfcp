@@ -8,7 +8,6 @@ def Get_IEs():
     import re
     ie_data_dict = {}
     for ie_data in ie_data_lines:
-        print(ie_data)
         ie_dict = {}
         if ie_data.startswith('#'):
             #Skip comment line
